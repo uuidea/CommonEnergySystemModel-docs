@@ -1,16 +1,2 @@
-* Guides
-** xref:dp-dataproduct::index.adoc[]
-** xref:im-archimate-metamodel::index.adoc[]
-** xref:doc-modeling-guidelines::index.adoc[]
-** xref:doc-design::index.adoc[]
-* Data products
-** xref:dp-buurtnet::index.adoc[]
-** xref:dp-capaciteitskaart::index.adoc[]
-** xref:dp-capaciteitskaart-groengas::index.adoc[]
-** xref:dp-meetdata::index.adoc[]
-** xref:dp-netbewust-laden::index.adoc[]
-** xref:dp-netburen::index.adoc[]
-** xref:dp-stationsmeetdata::index.adoc[]
-** xref:dp-transitietechnieken::index.adoc[]
-* NBNL Profile Group
-** xref:im-nbnl-equipment::index.adoc[]
+* Common Energy System Model
+

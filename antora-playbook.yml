@@ -1,6 +1,6 @@
 site:
-  title: Netbeheer Nederland Documentation
-  url: https://netbeheer-nederland.github.io/docs-dev
+  title: Common Energy System Model Documentation
+  url: https://G-PST.github.io/CommonEnergySystemModel-docs
 content:
   sources:
   - url: .

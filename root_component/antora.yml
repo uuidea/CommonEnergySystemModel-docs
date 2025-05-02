@@ -1,5 +1,5 @@
 name: ROOT
-title: Netbeheer Nederland Documentation
+title: Common Energy System Model Documentation
 version: ~
 nav:
 - modules/ROOT/nav.adoc
