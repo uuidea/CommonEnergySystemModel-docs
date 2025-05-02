@@ -1,11 +1,11 @@
 site:
   title: Common Energy System Model Documentation
-  url: https://G-PST.github.io/CommonEnergySystemModel-docs
+  url: https://uuidea.github.io/CommonEnergySystemModel-docs
 content:
   sources:
   - url: .
     start_path: ./root_component 
-  - url: https://github.com/G-PST/CommonEnergySystemModel
+  - url: https://github.com/uuidea/CommonEnergySystemModel
     branches: docs
     start_paths: [v*]
 asciidoc:
