@@ -12,7 +12,7 @@ asciidoc:
   attributes:
     page-pagination: ''
     experimental: ''
-    kroki-fetch-diagram: true  # Ensure renderng is done server-sided so the images are served statically.
+    kroki-fetch-diagram: true  # Ensure renderng is done server-sided so the images are served statically.ter
     kroki-default-format: svg@
     kroki-server-url: http://fruit.ritger.nl:9000
   extensions:
