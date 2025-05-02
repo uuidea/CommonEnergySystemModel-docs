@@ -5,7 +5,7 @@ content:
   sources:
   - url: .
     start_path: ./root_component 
-  - url: https://github.com/uuidea/CommonEnergySystemModel
+  - url: https://github.com/uuidea/Common-Energy-System-Model
     branches: docs
     start_paths: [v*]
 asciidoc:
