@@ -1,0 +1,33 @@
+site:
+  title: Netbeheer Nederland Documentation
+  url: https://netbeheer-nederland.github.io/docs-dev
+content:
+  sources:
+  - url: .
+    start_path: ./root_component 
+  - url: https://github.com/G-PST/CommonEnergySystemModel
+    branches: docs
+    start_paths: [v*]
+asciidoc:
+  attributes:
+    page-pagination: ''
+    experimental: ''
+    kroki-fetch-diagram: true  # Ensure renderng is done server-sided so the images are served statically.
+    kroki-default-format: svg@
+    kroki-server-url: http://fruit.ritger.nl:9000
+  extensions:
+    - asciidoctor-kroki
+    - '@djencks/asciidoctor-mathjax'
+output:
+  clean: true
+  dir: ./docs
+urls:
+  latest_version_segment: latest
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+antora:
+  extensions:
+  - require: '@antora/lunr-extension'
